@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SnoopKit",
-            url: "https://github.com/asanre/snoop/releases/download/v0.4.0/SnoopKit.xcframework.zip",
-            checksum: "29310314de0f60c8247a935f76066d4988e6a8658ce6af299d250773966f2487"
+            url: "https://github.com/asanre/snoop/releases/download/v0.5.0/SnoopKit.xcframework.zip",
+            checksum: "6e0c4272a9a5b9e06edcd30ae795300eb70b97af904a839cb2dee7214787467c"
         ),
         .target(name: "Snoop", dependencies: ["SnoopKit"]),
     ]
